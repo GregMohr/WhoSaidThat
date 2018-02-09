@@ -1,0 +1,57 @@
+html{
+  height: 100%;
+}
+body{
+  background: linear-gradient(to top left, #FFED26 0%, #ffffff 100%);
+  height: 100%;
+}
+b{
+  font-weight: 900;
+  font-size: 15px;
+}
+h1{
+  font-family: 'Fascinate Inline', cursive;
+}
+h2{
+  font-family: 'Indie Flower', cursive;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
+}
+#result{
+  font-family: Montserrat, monospace;
+  font-size: 12px;
+  height: 80px;
+}
+#tweet{
+  margin-top: 35px;
+}
+#author-buttons{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px 10px 20px 10px;
+}
+.answer{
+  vertical-align: baseline;
+  margin: 10px 0 10px 0;
+}
+label{
+  font-family: Montserrat, monospace;
+  font-size: 12px;
+  padding-left: 15px;
+  vertical-align: middle;
+}
+#tweet-quote{
+  padding: 10px;
+  text-align:center;
+  border-radius: 50%;
+  font-size:1.2em;
+  height: 40px;
+  width: 40px;
+  color: black;
+  background: radial-gradient(#FFED26 20%, #0F0E08 100%);
+  opacity: 1;
+}
+#tweet-quote:hover{
+  opacity: 0.8;
+}
